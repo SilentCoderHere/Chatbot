@@ -127,7 +127,7 @@ def getResponse(sentence: str, words: list[str]) -> str:
         return "AI helps computers do smart things."
 
     elif any(word in sentence_lower for word in ["bye", "goodbye", "see you"]):
-        return "Bye! Have a great day!"
+        return "bye!"
 
     elif any(word in sentence_lower for word in ["yes", "yep", "sure", "ok", "okay"]):
         return "Alright!"

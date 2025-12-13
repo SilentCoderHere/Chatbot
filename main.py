@@ -16,8 +16,8 @@ def main() -> None:
 
         response = getResponse(prompt, words)
 
-        if response == "bye":
-            print("Bot: Goodbye!")
+        if response == "bye!":
+            print("Bot: Have a nice day! Goodbye!")
             break
         print("Bot:", response)
 
